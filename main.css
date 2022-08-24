@@ -1,0 +1,100 @@
+@font-face {
+   font-family:'Outfit', sans-serif;
+   src: url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+}
+
+/* Typography */
+.main {
+       font-size: 20px;
+       font-weight: 700;
+      }
+
+.sub {
+      font-size: 15px;
+      font-weight: 400;
+     }
+.mains {
+       font-size: 25px;
+       font-weight: 700;
+      }
+
+.subs {
+      font-size: 25px;
+      font-weight: 700;
+     }
+
+.main-con {
+   font-family: 'Outfit', sans-serif;
+}
+
+     /* colors */
+.main {
+       color: hsl(218, 44%, 22%);
+}
+
+.sub {
+      color:  hsl(220, 15%, 55%)
+     }
+.mains {
+       color: hsl(220, 15%, 55%);
+}
+
+.subs {
+      color:  hsl(218, 44%, 22%)
+     }
+
+body {
+      overflow: hidden;
+           background-color: hsl(212, 45%, 89%);
+          }
+   
+.design-con {
+             background-color: hsl(0, 0%, 100%);
+            }
+
+            /* Display size */
+.design-con {
+             width: 265px;
+            }
+
+
+            /* Image sizing */
+img {
+     width: 250px;
+     border-radius: 20px;
+    }
+            /* Box Sizing. */
+.design-con {
+
+             border-radius: 20px;
+             display: grid;
+             justify-items: center;
+             padding: 10px;
+}
+
+.design-text{
+             display: grid;
+             justify-items: center;
+             text-align: center;
+}
+
+.main-con {
+           display: grid;
+           justify-items: center;
+           margin-top: 75px;
+}
+
+.sub {
+      margin-top: -5px;
+      margin-bottom: 25px;
+}
+
+.att {
+      display: grid;
+      justify-items: right;
+}
+
+a {
+   text-decoration: none;
+   color: ;
+}
